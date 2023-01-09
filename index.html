@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Test</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    </head>
+
+    <body>
+    <div class="score"><a href="highscore.html">highscore</a></div>
+
+    <div class="timer">Time:  <span id="time">0</span></div>
+
+    <div class="wrapper">
+        <div id="start-screen" class="start">
+            <h1>Coding Test</h1>
+            <p>Answer the cooding questions. They are based on eveything we have learned so far.
+                You have a time limit if you get a question wrong 15 seconds will be taken away !!!
+            </p>
+            <button id="Start Test!"></button>
+        </div>
+
+        <div id="questions" class="hide">
+            <h2 id="question-asked"></h2>
+            <div id="choices" class="choices"></div>
+        </div>
+
+        <div id="end" class="hide">
+            <h2>Finished Test!</h2>
+            <p>
+                Enter initials: <input type="text" id="initials" max="3" />
+                <button id="submit">Submit</button>
+              </p>
+        </div>
+
+        <div id="feedback" class="feedback hide"></div> 
+    </div>
+
+    <script src=".assets/js/script.js"></script>
+    <script>src=".assets/js/logic.js" </script>
+</body>
+</html>
