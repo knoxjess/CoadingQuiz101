@@ -1,46 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 body {
-    font-size: 140%;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  font-family: 'Caveat', cursive;
+  font-size: 120%;
+  background-color: #ecc7ee;
 }
 a {
-    color: lightskyblue;
-    transition: color 0.1s;
+  color: #8f3c95;
+  text-decoration: none;
+  transition: color 0.1s;
 }
 a:hover {
-    color: darkorchid;
-}
-button:hover {
-    background-color: lightpink;
+  color: #a626d9;
 }
 button {
-    transition: background-color 0.1s;
-    color: white;
-    background-color: rgb(85, 85, 208);
-    border: 0;
-    padding: 5px 15px;
-    border-radius: 5px;
-    font-size: 100%;
-    cursor: pointer;
-    margin: 5px;
+  display: inline-block;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 100%;
+  background-color: #a15cc3;
+  border-radius: 5px;
+  padding: 2px 10px;
+  color: white;
+  border: 0;
+  transition: background-color 0.1s;
 }
 button:hover {
-    background-color: lightblue;
+  background-color: #c00eab;
+}
+.choices button {
+  display: block;
 }
 input[type="text"] {
-    font-size: 100%;
+  font-size: 100%;
 }
 ol {
-    padding-left: 0px;
-    max-height: 400px;
-    overflow: auto;   
-}
-.choice button {
-    display: block;
+  padding-left: 0px;
+  max-height: 400px;
+  overflow: auto;
 }
 li {
-    padding: 5px;
-    list-style: decimal inside none;
+  padding: 5px;
+  list-style: decimal inside none;
 }
 li:nth-child(odd) {
-    background-color: azure;
+  background-color: #f3edfc;
+}
+.wrapper {
+  margin: 100px auto 0 auto;
+  max-width: 600px;
+}
+.hide {
+  display: none;
+}
+.start {
+  text-align: center;
+}
+.scores {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.feedback {
+  font-style: italic;
+  font-size: 120%;
+  margin-top: 20px;
+  padding-top: 10px;
+  color: gray;
+  border-top: 2px solid #ccc;
+}
+.timer {
+  position: absolute;
+  top: 10px;
+  right: 10px;
 }
