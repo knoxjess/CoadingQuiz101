@@ -1,23 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 body {
+  padding: 15%;
   font-family: 'Caveat', cursive;
   font-size: 120%;
-  background-color: #ecc7ee;
+  background-color: #d7a2da;
+  
 }
 a {
-  color: #8f3c95;
+  color: #fefefe;
   text-decoration: none;
   transition: color 0.1s;
 }
 a:hover {
-  color: #a626d9;
+  color: #7f01b0;
 }
 button {
   display: inline-block;
   margin: 5px;
   cursor: pointer;
   font-size: 100%;
-  background-color: #a15cc3;
+  background-color: #7c29a6;
   border-radius: 5px;
   padding: 2px 10px;
   color: white;
