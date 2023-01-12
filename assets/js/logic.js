@@ -58,15 +58,22 @@ function questionClick(event) {
     if (time < 0) {
       time = 0;
     }
-  }
-    
-    timerEl.textContent = time;
-   
-  
-  feedbackEl.setAttribute('class', 'feedback');
-  setTimeout(function () {
-    feedbackEl.setAttribute('class', 'feedback hide');
-  }, 1000);
+
+timerEl.textContent = time;
+
+
+feedbackEl.textContent = 'Wrong!';
+} else {
+
+
+feedbackEl.textContent = 'Correct!';
+}
+
+feedbackEl.setAttribute('class', 'feedback');
+setTimeout(function () {
+feedbackEl.setAttribute('class', 'feedback hide');
+}, 1000);
+
  
   currentQuestionIndex++;
   

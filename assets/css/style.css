@@ -67,11 +67,12 @@ li:nth-child(odd) {
   font-size: 120%;
   margin-top: 20px;
   padding-top: 10px;
-  color: gray;
-  border-top: 2px solid #ccc;
+  color: rgb(255, 255, 255);
+  border-top: 2px solid rgb(242, 234, 234);
 }
 .timer {
   position: absolute;
   top: 10px;
   right: 10px;
+  color: aliceblue;
 }
