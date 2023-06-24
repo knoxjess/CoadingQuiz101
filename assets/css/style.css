@@ -3,31 +3,31 @@ body {
   padding: 15%;
   font-family: 'Caveat', cursive;
   font-size: 120%;
-  background-color: #d7a2da;
+  background-color: #ffffff;
   
 }
 a {
-  color: #fefefe;
+  color: #db9823;
   text-decoration: none;
   transition: color 0.1s;
 }
 a:hover {
-  color: #7f01b0;
+  color: #025464;
 }
 button {
   display: inline-block;
   margin: 5px;
   cursor: pointer;
   font-size: 100%;
-  background-color: #7c29a6;
+  background-color: #E8AA42;
   border-radius: 5px;
   padding: 2px 10px;
-  color: white;
+  color: #ffffff;
   border: 0;
   transition: background-color 0.1s;
 }
 button:hover {
-  background-color: #c00eab;
+  background-color: #025464;
 }
 .choices button {
   display: block;
@@ -74,5 +74,5 @@ li:nth-child(odd) {
   position: absolute;
   top: 10px;
   right: 10px;
-  color: aliceblue;
+  color: #db9823;
 }
